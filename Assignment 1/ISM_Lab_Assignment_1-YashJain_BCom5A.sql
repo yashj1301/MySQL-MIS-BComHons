@@ -1,8 +1,11 @@
+-- Active: 1659098375332@@localhost@3306
 
-#ASSIGNMENT 1 - BASIC TABLE COMMANDS
+  #ASSIGNMENT 1 - BASIC TABLE COMMANDS
 
 create database student_record;
 use student_record;
+
+show tables;
 
 #Creating Table Persons
 
@@ -30,12 +33,3 @@ insert into persons (personID,FirstName,LastName,Address,City)
 values (104,'Virat','Kohli','Eco-village 5','Chennai');
 
 select * from persons;
-
-
-
-
-
-
-
-
-
